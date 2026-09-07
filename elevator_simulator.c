@@ -1,5 +1,4 @@
-// Lao, Greshka, 22012395, Assignment 2, 159.341
-// Lift Simulator
+// Elevator Simulator
 
 #include <stdio.h>
 #include <stddef.h>
@@ -374,13 +373,7 @@ void printbuilding(void) {
 	printf("%s%s%s%s\n", hl, tu, hl, br);
 
 	// Print Message
-	printf("Lift Simulation - Press CTRL-C to exit\n\n");
-
-	// Compulsory console information
-	printf("----------------------------------------\n");
-	printf(" 159.341 Assignment 2 Semester 1 2024 \n");
-	printf(" Submitted by: Greshka Lao, 22012395 \n");
-	printf("----------------------------------------\n");
+	printf("Elevator Simulation - Press CTRL-C to exit\n\n");
 }
 
 // -------------------------------------------------
